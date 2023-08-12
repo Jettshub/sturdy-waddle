@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+/* page colors */
+:root {
+  --main: black;
+  --secondary: orange;
+  --third: white;
+
+}
