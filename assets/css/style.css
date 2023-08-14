@@ -6,5 +6,72 @@
   --main: black;
   --secondary: orange;
   --third: white;
+}
 
+/* body */
+body {
+
+
+
+  
+}
+
+/* header */
+header {
+
+
+
+
+}
+/* subtitle */
+.subtitle {
+
+  background-image: url(../images/subheader.jpg) ;
+}
+/* project images */
+.horichal {
+  background-image: url() ;
+}
+
+footer {
+font-size: 20px;
+text-align: center;
+vertical-align: bottom;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query breakpoints */
+
+/* laptop */
+@media screen and (max-width: 992px) {
+  
+}
+/* tablet */
+@media  and (max-width: 768px) {
+  
+}
+/* portait phone */
+@media screen and (max-width: 576px) {
+  
 }
