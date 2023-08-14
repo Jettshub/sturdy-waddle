@@ -22,7 +22,6 @@ line-height: normal;
 
 h1, h2, h3, {
   margin: 0;
-
 }
 
 p {
@@ -37,13 +36,16 @@ header {
 }
 /* subtitle */
 .subtitle {
-
+  background: var(--secondary);
   background-image: url(../images/subheader.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  text-align: right;
+  min-height: 150px;
+  padding: 2% 5%;
 }
 
 .subtitle img {
@@ -62,7 +64,12 @@ header {
 }
 
 .subtitle h2 {
-
+  background-color: var(--main);
+  color: var(--secondary);
+  border: 2px solid var(--third);
+  margin: 0;
+  padding: 5px 10px;
+  display: inline;
 
 }
 /* main */
@@ -173,7 +180,4 @@ footer {
 @media  and (max-width: 768px) {
   
 }
-/* portait phone */
-@media screen and (max-width: 576px) {
-  
-}
+
