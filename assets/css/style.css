@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 /* page colors */
@@ -10,12 +12,22 @@
 
 /* body */
 body {
-
-
-
-  
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+color: var(--main);
+background-color: var(--third);
+line-height: normal;  
 }
 
+h1, h2, h3, {
+  margin: 0;
+
+}
+
+p {
+  margin: 0;
+}
 /* header */
 header {
 
@@ -26,19 +38,92 @@ header {
 /* subtitle */
 .subtitle {
 
-  background-image: url(../images/subheader.jpg) ;
+  background-image: url(../images/subheader.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
+
+.subtitle img {
+  width: 100px;
+  margin: 15px;
+  border-radius: 45%;
+  opacity: 0.8;
+}
+
+.subtitle img:hover {
+  opacity: 1;
+}
+.subtitle div{
+  flex: 0 0 75%;
+
+}
+
+.subtitle h2 {
+
+
+}
+/* main */
+.wrapping {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+}
+
+.page-section {
+
+
+
+}
+
+.page-section p {
+  color: var(--main);
+  margin-bottom: 10px;
+
+}
+
+
+
+/* grid container */
+.grid-container {
+
+
+}
+
+
+
+.grid-item {
+
+
+}
+
+.grid-item::hover {
+  background-color: yellow;
+}
+
+
+
 /* project images */
+  /*main project  */
 .horichal {
-  background-image: url() ;
+  background-image: url(../images/Horichal1.png) ;
+}
+  /* sub project */
+.n-a {
+  background-image: url(../images/comingsoon.jpg);
+
 }
 
+/* footer */
 footer {
-font-size: 20px;
-text-align: center;
-vertical-align: bottom;
-
-
+  font-size: 20px;
+  text-align: center;
+  vertical-align: bottom;
 }
 
 
@@ -65,7 +150,24 @@ vertical-align: bottom;
 
 /* laptop */
 @media screen and (max-width: 992px) {
-  
+  header {
+
+
+  }
+
+  header h1 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: ;
+
+
+  }
+
+  header nav {
+
+
+
+  }
 }
 /* tablet */
 @media  and (max-width: 768px) {
