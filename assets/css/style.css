@@ -160,8 +160,8 @@ main {
 .grid-item {
   border: 2px solid var(--secondary);
   grid-column: span 6;
-  background-color: var(--primary);
-  color: var(--primary);
+  background-color: var(--main);
+  color: var(--main);
   min-height: 100px;
   display: flex;
   align-items: flex-end;
